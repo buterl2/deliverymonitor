@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Warehouse Delivery Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Delivery Monitor</h1>
+            
+            <!-- Statistics Container -->
+            <div class="stats-container">
+                <div class="stats-row">
+                    <div class="stats-label">Total Lines Open:</div>
+                    <div id="totalLinesOpen" class="stats-value">Loading...</div>
+                </div>
+                <div class="stats-row">
+                    <div class="stats-label">Total Items Open:</div>
+                    <div id="totalItemsOpen" class="stats-value">Loading...</div>
+                </div>
+                <div class="stats-note">* Numbers may be lower than actual values as not all TO's are waved</div>
+            </div>
+        </header>
+        
+        <div class="table-container">
+            <div class="table-controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search by Delivery...">
+                </div>
+                
+                <div class="filter-container">
+                    <!-- Priority Filter Checkboxes -->
+                    <div class="priority-filters">
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="priority10" checked>
+                            <span class="priority-label priority-10">DP10</span>
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="priority20" checked>
+                            <span class="priority-label priority-20">DP20</span>
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" id="priority30" checked>
+                            <span class="priority-label priority-30">DP30</span>
+                        </label>
+                    </div>
+                    
+                    <button id="dateToggleBtn" class="date-toggle-btn">Today</button>
+                </div>
+                
+                <div class="loading-indicator" id="loadingIndicator">Loading data...</div>
+            </div>
+            
+            <div class="table-responsive">
+                <table id="deliveryTable" class="responsive-table">
+                    <thead>
+                        <tr>
+                            <th class="col-delivery">DELIVERY</th>
+                            <th class="col-priority">PRIORITY</th>
+                            <th class="col-status">STATUS</th>
+                            <th class="col-created">CREATED</th>
+                            <th class="col-time">TIME</th>
+                            <th class="col-gidate">GI DATE</th>
+                            <th class="col-gitime">GI TIME</th>
+                            <th class="col-country">COUNTRY</th>
+                            <th class="col-hus">HUS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Table data will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Delivery Detail Modal -->
+        <div id="detailModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Delivery Details</h2>
+                    <span class="close-button">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="detail-table-responsive">
+                        <table id="detailTable">
+                            <thead>
+                                <tr>
+                                    <th class="col-hu">HU</th>
+                                    <th class="col-to">TO</th>
+                                    <th class="col-location">LOCATION</th>
+                                    <th class="col-material">MATERIAL</th>
+                                    <th class="col-batch">BATCH</th>
+                                    <th class="col-qty">QTY</th>
+                                    <th class="col-profile">PROFILE</th>
+                                    <th class="col-firstpick">FIRST PICK</th>
+                                    <th class="col-fpdate">FIRST PICK DATE</th>
+                                    <th class="col-fptime">FIRST PICK TIME</th>
+                                    <th class="col-lastpick">LAST PICK</th>
+                                    <th class="col-lpdate">LAST PICK DATE</th>
+                                    <th class="col-lptime">LAST PICK TIME</th>
+                                </tr>
+                            </thead>
+                            <tbody id="detailTableBody">
+                                <!-- Detail data will be inserted here by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
