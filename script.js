@@ -1,3 +1,15 @@
+// Helper function to get direct download URL from Dropbox shared link
+function getDropboxDirectLink(sharedLink) {
+    return sharedLink.replace('www.dropbox.com', 'dl.dropboxusercontent.com')
+                     .replace('?dl=0', '');
+}
+
+// Dropbox links configuration - REPLACE THESE WITH YOUR ACTUAL DROPBOX SHARED LINKS
+const CONFIG = {
+    vl06fJsonUrl: getDropboxDirectLink('https://www.dropbox.com/scl/fi/hpv7gbfst5utk5my1us1s/VL06F.json?rlkey=hqig1wsb4msshzywsb3pwbls2&st=76aeqz6a&dl=0'),
+    statisticsJsonUrl: getDropboxDirectLink('https://www.dropbox.com/scl/fi/y0254c5neutmzmkn0w8zx/statistics.json?rlkey=x8uxzg64pn8wy5yfjyhaydxfw&st=wd76xq5n&dl=0')
+};
+
 // Helper function to get priority class
 function getPriorityClass(priority) {
     // Convert to string and trim in case it's a number or has whitespace
@@ -124,7 +136,21 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Add swipe functionality for mobile
     setupMobileSwipe();
+    
+    // Set up auto-refresh for real-time updates
+    setupAutoRefresh();
 });
+
+// Set up auto-refresh for real-time updates
+function setupAutoRefresh() {
+    const REFRESH_INTERVAL = 60000; // 1 minute
+    
+    setInterval(() => {
+        console.log("Auto-refreshing data...");
+        fetchDeliveryData();
+        fetchStatisticsData();
+    }, REFRESH_INTERVAL);
+}
 
 // Debounce function to limit how often a function is called
 function debounce(func, wait) {
@@ -182,10 +208,13 @@ function setupMobileSwipe() {
     }
 }
 
-// Fetch statistics data from statistics.json
+// Fetch statistics data from Dropbox statistics.json
 async function fetchStatisticsData() {
     try {
-        const response = await fetch('statistics.json');
+        // Use CORS proxy if needed, otherwise use direct Dropbox link
+        const response = await fetch(CONFIG.statisticsJsonUrl, {
+            cache: 'no-store' // Ensure we don't use cached data
+        });
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -217,10 +246,16 @@ function updateStatisticsDisplay() {
     totalItemsOpenElement.textContent = statsData[statsType].total_items_open.toLocaleString();
 }
 
-// Fetch data from the JSON file
+// Fetch data from the Dropbox JSON file
 async function fetchDeliveryData() {
     try {
-        const response = await fetch('VL06F.json');
+        loadingIndicator.style.display = 'block';
+        loadingIndicator.textContent = 'Loading data...';
+        
+        // Use CORS proxy if needed, otherwise use direct Dropbox link
+        const response = await fetch(CONFIG.vl06fJsonUrl, {
+            cache: 'no-store' // Ensure we don't use cached data
+        });
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
