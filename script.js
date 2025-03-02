@@ -1,7 +1,7 @@
 // GitHub repository configuration
 const CONFIG = {
-    username: 'your-github-username',
-    repoName: 'warehouse-monitor',
+    username: 'buterl2',
+    repoName: 'deliverymonitor',
     branch: 'main' // or 'master' depending on your default branch
 };
 
