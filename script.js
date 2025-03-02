@@ -1,14 +1,14 @@
-// Helper function to get direct download URL from Dropbox shared link
-function getDropboxDirectLink(sharedLink) {
-    return sharedLink.replace('www.dropbox.com', 'dl.dropboxusercontent.com')
-                     .replace('?dl=0', '');
-}
-
-// Dropbox links configuration - REPLACE THESE WITH YOUR ACTUAL DROPBOX SHARED LINKS
+// GitHub repository configuration
 const CONFIG = {
-    vl06fJsonUrl: getDropboxDirectLink('https://www.dropbox.com/scl/fi/hpv7gbfst5utk5my1us1s/VL06F.json?rlkey=hqig1wsb4msshzywsb3pwbls2&st=76aeqz6a&dl=0'),
-    statisticsJsonUrl: getDropboxDirectLink('https://www.dropbox.com/scl/fi/y0254c5neutmzmkn0w8zx/statistics.json?rlkey=x8uxzg64pn8wy5yfjyhaydxfw&st=wd76xq5n&dl=0')
+    username: 'your-github-username',
+    repoName: 'warehouse-monitor',
+    branch: 'main' // or 'master' depending on your default branch
 };
+
+// Function to get raw GitHub URLs
+function getGitHubRawUrl(path) {
+    return `https://raw.githubusercontent.com/${CONFIG.username}/${CONFIG.repoName}/${CONFIG.branch}/${path}`;
+}
 
 // Helper function to get priority class
 function getPriorityClass(priority) {
@@ -208,11 +208,10 @@ function setupMobileSwipe() {
     }
 }
 
-// Fetch statistics data from Dropbox statistics.json
+// Fetch statistics data from GitHub
 async function fetchStatisticsData() {
     try {
-        // Use CORS proxy if needed, otherwise use direct Dropbox link
-        const response = await fetch(CONFIG.statisticsJsonUrl, {
+        const response = await fetch(getGitHubRawUrl('data/statistics.json'), {
             cache: 'no-store' // Ensure we don't use cached data
         });
         
@@ -246,14 +245,13 @@ function updateStatisticsDisplay() {
     totalItemsOpenElement.textContent = statsData[statsType].total_items_open.toLocaleString();
 }
 
-// Fetch data from the Dropbox JSON file
+// Fetch delivery data from GitHub
 async function fetchDeliveryData() {
     try {
         loadingIndicator.style.display = 'block';
         loadingIndicator.textContent = 'Loading data...';
         
-        // Use CORS proxy if needed, otherwise use direct Dropbox link
-        const response = await fetch(CONFIG.vl06fJsonUrl, {
+        const response = await fetch(getGitHubRawUrl('data/VL06F.json'), {
             cache: 'no-store' // Ensure we don't use cached data
         });
         
