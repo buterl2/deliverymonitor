@@ -3773,7 +3773,23 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 4.353,
-        "COUNTER": 1
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034826842": {
+                "TO_NUMBERS": {
+                    "16473871": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "C20510B",
+                                "MATERIAL": "A8845240000701",
+                                "BATCH": "250270224T",
+                                "TO ITEM QTY": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     {
         "DELIVERY": "1451311284",
@@ -3789,7 +3805,23 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 4.353,
-        "COUNTER": 1
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034826859": {
+                "TO_NUMBERS": {
+                    "16473872": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "C20510B",
+                                "MATERIAL": "A8845240000701",
+                                "BATCH": "250270224T",
+                                "TO ITEM QTY": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     {
         "DELIVERY": "1451311294",
@@ -5213,7 +5245,23 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.54,
-        "COUNTER": 1
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034846451": {
+                "TO_NUMBERS": {
+                    "16473873": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "B1942CB",
+                                "MATERIAL": "50884521032499",
+                                "BATCH": "25A0222JZX",
+                                "TO ITEM QTY": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
     },
     {
         "DELIVERY": "1451313766",
@@ -6976,36 +7024,68 @@
         "COUNTER": 1
     },
     {
-        "DELIVERY": "1451321462",
+        "DELIVERY": "1451321472",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "TNAF00",
         "DELIVERY PRIORITY": 30,
         "STATUS": "A",
         "CREATED": "04/03/2025",
-        "TIME": "15:43:47",
+        "TIME": "15:43:56",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "LU",
+        "HUS": 2,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 3.105,
+        "COUNTER": 1
+    },
+    {
+        "DELIVERY": "1451321500",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "A",
+        "CREATED": "04/03/2025",
+        "TIME": "15:44:47",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "BE",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 1.695,
+        "COUNTER": 1
+    },
+    {
+        "DELIVERY": "1451321508",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "A",
+        "CREATED": "04/03/2025",
+        "TIME": "15:44:56",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "BE",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 1.497,
+        "COUNTER": 1
+    },
+    {
+        "DELIVERY": "1451321536",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "A",
+        "CREATED": "04/03/2025",
+        "TIME": "15:45:36",
         "GI DATE": "05/03/2025",
         "GI TIME": "19:29:59",
         "COUNTRY": "BE",
         "HUS": 0,
         "DELIVERY BLOCK": "",
-        "WEIGHT": 0.25,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034911609": {
-                "TO_NUMBERS": {
-                    "16473859": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "B1938BC",
-                                "MATERIAL": "10884522019729",
-                                "BATCH": "0000272184",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                }
-            }
-        }
+        "WEIGHT": 6.841,
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451117778",
@@ -24512,9 +24592,9 @@
                     }
                 },
                 "PROFILE": "HRL_BOD_X4",
-                "INITIATED_ON": "",
-                "INITIATED_TIME": "00:00:00",
-                "INITIATED_BY": "",
+                "INITIATED_ON": "04/03/2025",
+                "INITIATED_TIME": "15:46:02",
+                "INITIATED_BY": "POLEHS2",
                 "LAST_PICK_ON": "",
                 "LAST_TIME": "00:00:00",
                 "LAST_BY": ""
@@ -70139,9 +70219,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -70181,90 +70261,6 @@
                 "LAST_PICK_ON": "",
                 "LAST_TIME": "00:00:00",
                 "LAST_BY": ""
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451314183",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAV00",
-        "DELIVERY PRIORITY": 20,
-        "STATUS": "B",
-        "CREATED": "04/03/2025",
-        "TIME": "14:06:03",
-        "GI DATE": "04/03/2025",
-        "GI TIME": "17:59:59",
-        "COUNTRY": "GB",
-        "HUS": 2,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 2.29,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034846055": {
-                "TO_NUMBERS": {
-                    "16472250": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "D42662R",
-                                "MATERIAL": "10884521798007",
-                                "BATCH": "74727",
-                                "TO ITEM QTY": 2
-                            },
-                            {
-                                "LOCATION": "D62625N",
-                                "MATERIAL": "20884521208787",
-                                "BATCH": "MBP2409740",
-                                "TO ITEM QTY": 1
-                            },
-                            {
-                                "LOCATION": "D62625N",
-                                "MATERIAL": "20884521208787",
-                                "BATCH": "MBP2409741",
-                                "TO ITEM QTY": 1
-                            },
-                            {
-                                "LOCATION": "D70463J",
-                                "MATERIAL": "10884521798786",
-                                "BATCH": "74692",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_BOD_X4",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "15:34:31",
-                "INITIATED_BY": "HRLOUB12",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:44:48",
-                "LAST_BY": "HRLOUB12"
-            },
-            "206739781034846062": {
-                "TO_NUMBERS": {
-                    "16472531": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "B1425BA",
-                                "MATERIAL": "10884521208032",
-                                "BATCH": "NIL",
-                                "TO ITEM QTY": 2
-                            },
-                            {
-                                "LOCATION": "D70663F",
-                                "MATERIAL": "10884521208070",
-                                "BATCH": "131003",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_BOD_X4",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:24:07",
-                "INITIATED_BY": "MUNDOA3",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "14:30:54",
-                "LAST_BY": "MUNDOA3"
             }
         }
     },
@@ -78318,45 +78314,6 @@
         }
     },
     {
-        "DELIVERY": "1451318014",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "DHAD00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "B",
-        "CREATED": "04/03/2025",
-        "TIME": "15:02:42",
-        "GI DATE": "04/03/2025",
-        "GI TIME": "18:29:59",
-        "COUNTRY": "NO",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.474,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034856290": {
-                "TO_NUMBERS": {
-                    "16473026": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "D68472A",
-                                "MATERIAL": "A8845211692801",
-                                "BATCH": "20241021",
-                                "TO ITEM QTY": 10
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "15:29:59",
-                "INITIATED_BY": "HRLOUB12",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:43:53",
-                "LAST_BY": "HRLOUB12"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451318025",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "TNGFD0",
@@ -78421,9 +78378,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -78758,9 +78715,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -78893,9 +78850,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -78971,9 +78928,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79081,9 +79038,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79120,9 +79077,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79165,9 +79122,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79204,9 +79161,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79352,9 +79309,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79391,9 +79348,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79480,9 +79437,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79519,9 +79476,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79620,9 +79577,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -79729,9 +79686,9 @@
                 "INITIATED_ON": "04/03/2025",
                 "INITIATED_TIME": "15:30:40",
                 "INITIATED_BY": "MIHAYK2",
-                "LAST_PICK_ON": "",
-                "LAST_TIME": "00:00:00",
-                "LAST_BY": ""
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:46:41",
+                "LAST_BY": "MIHAYK2"
             }
         }
     },
@@ -83700,6 +83657,120 @@
                                 "MATERIAL": "A8845211777312",
                                 "BATCH": "SYL1897X",
                                 "TO ITEM QTY": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "DELIVERY": "1451321462",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "B",
+        "CREATED": "04/03/2025",
+        "TIME": "15:43:47",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "BE",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 0.25,
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034911609": {
+                "TO_NUMBERS": {
+                    "16473859": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "B1938BC",
+                                "MATERIAL": "10884522019729",
+                                "BATCH": "0000272184",
+                                "TO ITEM QTY": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "DELIVERY": "1451321498",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "B",
+        "CREATED": "04/03/2025",
+        "TIME": "15:44:31",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "BE",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 2.352,
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034911944": {
+                "TO_NUMBERS": {
+                    "16473860": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "B19450A",
+                                "MATERIAL": "30607411919160",
+                                "BATCH": "426833",
+                                "TO ITEM QTY": 1
+                            },
+                            {
+                                "LOCATION": "B19220D",
+                                "MATERIAL": "20884522009697",
+                                "BATCH": "2414409FEN",
+                                "TO ITEM QTY": 2
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "DELIVERY": "1451321524",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "TNAF00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "B",
+        "CREATED": "04/03/2025",
+        "TIME": "15:45:19",
+        "GI DATE": "05/03/2025",
+        "GI TIME": "19:29:59",
+        "COUNTRY": "BE",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 10.11,
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034911975": {
+                "TO_NUMBERS": {
+                    "16473861": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "C12430A",
+                                "MATERIAL": "A8845215437403",
+                                "BATCH": "N5A1561Y",
+                                "TO ITEM QTY": 3
+                            },
+                            {
+                                "LOCATION": "C21440C",
+                                "MATERIAL": "A8845230032204",
+                                "BATCH": "N5A1610Y",
+                                "TO ITEM QTY": 6
+                            },
+                            {
+                                "LOCATION": "C22470C",
+                                "MATERIAL": "A8845230031504",
+                                "BATCH": "N5A1696Y",
+                                "TO ITEM QTY": 6
                             }
                         ]
                     }
@@ -104983,30 +105054,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.56,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034759553": {
-                "TO_NUMBERS": {
-                    "16470184": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C18411B",
-                                "MATERIAL": "A8845217586301",
-                                "BATCH": "D4L2318GY",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:51:23",
-                "INITIATED_BY": "HRLOUB32",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:17:26",
-                "LAST_BY": "HRLOUB32"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451304896",
@@ -106110,45 +106158,6 @@
         }
     },
     {
-        "DELIVERY": "1451306326",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "DHAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "12:22:51",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "16:59:59",
-        "COUNTRY": "NO",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.406,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034777779": {
-                "TO_NUMBERS": {
-                    "16470781": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C18460B",
-                                "MATERIAL": "A8845211325403",
-                                "BATCH": "A4M1739VY",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:51:23",
-                "INITIATED_BY": "HRLOUB32",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:17:26",
-                "LAST_BY": "HRLOUB32"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451306384",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "DHAF00",
@@ -106320,45 +106329,6 @@
         }
     },
     {
-        "DELIVERY": "1451306449",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPGO00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "12:24:56",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "20:59:59",
-        "COUNTRY": "FR",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.696,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034780694": {
-                "TO_NUMBERS": {
-                    "16470836": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C19460C",
-                                "MATERIAL": "10884522041270",
-                                "BATCH": "250060086H",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:51:23",
-                "INITIATED_BY": "HRLOUB32",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:17:26",
-                "LAST_BY": "HRLOUB32"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451306609",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "UPGO00",
@@ -106435,22 +106405,6 @@
                 "LAST_BY": "HRLOUB32"
             }
         }
-    },
-    {
-        "DELIVERY": "1451306803",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPGO00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "12:32:25",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "20:59:59",
-        "COUNTRY": "FR",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.902,
-        "COUNTER": 1
     },
     {
         "DELIVERY": "1451306828",
@@ -107012,30 +106966,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.402,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034799658": {
-                "TO_NUMBERS": {
-                    "16471147": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C16461D",
-                                "MATERIAL": "A8845211313101",
-                                "BATCH": "A4C2318VY",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:51:23",
-                "INITIATED_BY": "HRLOUB32",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:17:26",
-                "LAST_BY": "HRLOUB32"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451307952",
@@ -107135,30 +107066,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.96,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034801634": {
-                "TO_NUMBERS": {
-                    "16471331": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13500A",
-                                "MATERIAL": "A8845215818201",
-                                "BATCH": "B000003324",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451308273",
@@ -108547,45 +108455,6 @@
         }
     },
     {
-        "DELIVERY": "1451310038",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:10:51",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "15:59:59",
-        "COUNTRY": "GB",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.266,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034815013": {
-                "TO_NUMBERS": {
-                    "16471639": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C12460B",
-                                "MATERIAL": "20884521197180",
-                                "BATCH": "S24HJ004",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451310073",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "UPAF00",
@@ -108621,45 +108490,6 @@
                 "LAST_PICK_ON": "04/03/2025",
                 "LAST_TIME": "15:17:43",
                 "LAST_BY": "GEORGA19"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451310089",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:11:13",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "15:59:59",
-        "COUNTRY": "GB",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.36,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034815082": {
-                "TO_NUMBERS": {
-                    "16471661": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13410B",
-                                "MATERIAL": "A8845215141410",
-                                "BATCH": "PZA0210X",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
             }
         }
     },
@@ -108845,30 +108675,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 3.96,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034819189": {
-                "TO_NUMBERS": {
-                    "16471738": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13510B",
-                                "MATERIAL": "A8845217841601",
-                                "BATCH": "243580076T",
-                                "TO ITEM QTY": 2
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451310512",
@@ -108884,30 +108691,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 4.625,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034818298": {
-                "TO_NUMBERS": {
-                    "16471117": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13410C",
-                                "MATERIAL": "10884521061798",
-                                "BATCH": "242880226",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451310561",
@@ -109013,30 +108797,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.993,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034821090": {
-                "TO_NUMBERS": {
-                    "16471750": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C14400D",
-                                "MATERIAL": "A8845217615616",
-                                "BATCH": "C240521120",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451310784",
@@ -109201,45 +108962,6 @@
         }
     },
     {
-        "DELIVERY": "1451311116",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:19:38",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "15:59:59",
-        "COUNTRY": "GB",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.266,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034825401": {
-                "TO_NUMBERS": {
-                    "16471872": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C12460B",
-                                "MATERIAL": "20884521197180",
-                                "BATCH": "S24HJ004",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451311150",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "TOGFD0",
@@ -109253,69 +108975,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.66,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034825722": {
-                "TO_NUMBERS": {
-                    "16471863": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C14420C",
-                                "MATERIAL": "10884522042284",
-                                "BATCH": "243160121H",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451311170",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:20:00",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "15:59:59",
-        "COUNTRY": "GB",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.62,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034825838": {
-                "TO_NUMBERS": {
-                    "16471875": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C12420C",
-                                "MATERIAL": "A8845215436503",
-                                "BATCH": "N4L1695Y",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451311187",
@@ -109370,30 +109030,7 @@
         "HUS": 1,
         "DELIVERY BLOCK": "",
         "WEIGHT": 0.866,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034825883": {
-                "TO_NUMBERS": {
-                    "16471878": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13460B",
-                                "MATERIAL": "A8845217265010",
-                                "BATCH": "SYL1135X",
-                                "TO ITEM QTY": 4
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
+        "COUNTER": 1
     },
     {
         "DELIVERY": "1451311269",
@@ -109476,84 +109113,6 @@
                 "LAST_PICK_ON": "04/03/2025",
                 "LAST_TIME": "15:15:23",
                 "LAST_BY": "PARKHA2"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451311323",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "UPAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:21:35",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "20:59:59",
-        "COUNTRY": "HU",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 2.996,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034827351": {
-                "TO_NUMBERS": {
-                    "16471865": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C14480C",
-                                "MATERIAL": "A8845215435903",
-                                "BATCH": "N5A1564Y",
-                                "TO ITEM QTY": 4
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451311338",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TNGO00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:21:44",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "19:29:59",
-        "COUNTRY": "SK",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 3.525,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034825784": {
-                "TO_NUMBERS": {
-                    "16471932": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C13380D",
-                                "MATERIAL": "A8845240000801",
-                                "BATCH": "250150005R",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
             }
         }
     },
@@ -109888,45 +109447,6 @@
         }
     },
     {
-        "DELIVERY": "1451312166",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TNAF00",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:32:20",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "19:29:59",
-        "COUNTRY": "SE",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.35,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034833055": {
-                "TO_NUMBERS": {
-                    "16472122": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C14440C",
-                                "MATERIAL": "20884521824352",
-                                "BATCH": "M2406241",
-                                "TO ITEM QTY": 5
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451312270",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "TOGOD0",
@@ -110089,84 +109609,6 @@
         }
     },
     {
-        "DELIVERY": "1451312397",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TOGFD0",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:35:22",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "18:59:59",
-        "COUNTRY": "DE",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.179,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034835417": {
-                "TO_NUMBERS": {
-                    "16472100": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C14510A",
-                                "MATERIAL": "40884521163370",
-                                "BATCH": "202501043X",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451312696",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TOGFD0",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:40:54",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "18:59:59",
-        "COUNTRY": "DE",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.32,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034839620": {
-                "TO_NUMBERS": {
-                    "16472187": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C12520C",
-                                "MATERIAL": "20884522007594",
-                                "BATCH": "24K0251JZX",
-                                "TO ITEM QTY": 3
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:52:02",
-                "INITIATED_BY": "HRLOUB241",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:06:26",
-                "LAST_BY": "HRLOUB241"
-            }
-        }
-    },
-    {
         "DELIVERY": "1451312872",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "TOGFD0",
@@ -110202,45 +109644,6 @@
                 "LAST_PICK_ON": "04/03/2025",
                 "LAST_TIME": "15:14:24",
                 "LAST_BY": "PALADA2"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451312876",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TOGFD0",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "13:44:23",
-        "GI DATE": "05/03/2025",
-        "GI TIME": "18:59:59",
-        "COUNTRY": "DE",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 0.81,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034841043": {
-                "TO_NUMBERS": {
-                    "16472281": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "C15420C",
-                                "MATERIAL": "20884521818979",
-                                "BATCH": "231520004H",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "14:50:07",
-                "INITIATED_BY": "HRLOUB249",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:02:37",
-                "LAST_BY": "HRLOUB249"
             }
         }
     },
@@ -110743,6 +110146,90 @@
         }
     },
     {
+        "DELIVERY": "1451314183",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "UPAV00",
+        "DELIVERY PRIORITY": 20,
+        "STATUS": "C",
+        "CREATED": "04/03/2025",
+        "TIME": "14:06:03",
+        "GI DATE": "04/03/2025",
+        "GI TIME": "17:59:59",
+        "COUNTRY": "GB",
+        "HUS": 2,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 2.29,
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034846055": {
+                "TO_NUMBERS": {
+                    "16472250": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "D42662R",
+                                "MATERIAL": "10884521798007",
+                                "BATCH": "74727",
+                                "TO ITEM QTY": 2
+                            },
+                            {
+                                "LOCATION": "D62625N",
+                                "MATERIAL": "20884521208787",
+                                "BATCH": "MBP2409740",
+                                "TO ITEM QTY": 1
+                            },
+                            {
+                                "LOCATION": "D62625N",
+                                "MATERIAL": "20884521208787",
+                                "BATCH": "MBP2409741",
+                                "TO ITEM QTY": 1
+                            },
+                            {
+                                "LOCATION": "D70463J",
+                                "MATERIAL": "10884521798786",
+                                "BATCH": "74692",
+                                "TO ITEM QTY": 2
+                            }
+                        ]
+                    }
+                },
+                "PROFILE": "HRL_BOD_X4",
+                "INITIATED_ON": "04/03/2025",
+                "INITIATED_TIME": "15:34:31",
+                "INITIATED_BY": "HRLOUB12",
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:44:48",
+                "LAST_BY": "HRLOUB12"
+            },
+            "206739781034846062": {
+                "TO_NUMBERS": {
+                    "16472531": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "B1425BA",
+                                "MATERIAL": "10884521208032",
+                                "BATCH": "NIL",
+                                "TO ITEM QTY": 2
+                            },
+                            {
+                                "LOCATION": "D70663F",
+                                "MATERIAL": "10884521208070",
+                                "BATCH": "131003",
+                                "TO ITEM QTY": 2
+                            }
+                        ]
+                    }
+                },
+                "PROFILE": "HRL_BOD_X4",
+                "INITIATED_ON": "04/03/2025",
+                "INITIATED_TIME": "14:24:07",
+                "INITIATED_BY": "MUNDOA3",
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "14:30:54",
+                "LAST_BY": "MUNDOA3"
+            }
+        }
+    },
+    {
         "DELIVERY": "1451314195",
         "SHIPPING POINT": "1NL2",
         "ROUTE": "UPAD00",
@@ -111136,6 +110623,45 @@
         }
     },
     {
+        "DELIVERY": "1451318014",
+        "SHIPPING POINT": "1NL2",
+        "ROUTE": "DHAD00",
+        "DELIVERY PRIORITY": 30,
+        "STATUS": "C",
+        "CREATED": "04/03/2025",
+        "TIME": "15:02:42",
+        "GI DATE": "04/03/2025",
+        "GI TIME": "18:29:59",
+        "COUNTRY": "NO",
+        "HUS": 1,
+        "DELIVERY BLOCK": "",
+        "WEIGHT": 1.474,
+        "COUNTER": 1,
+        "HU INFO": {
+            "206739781034856290": {
+                "TO_NUMBERS": {
+                    "16473026": {
+                        "LOCATIONS": [
+                            {
+                                "LOCATION": "D68472A",
+                                "MATERIAL": "A8845211692801",
+                                "BATCH": "20241021",
+                                "TO ITEM QTY": 10
+                            }
+                        ]
+                    }
+                },
+                "PROFILE": "HRL_B_U5_2",
+                "INITIATED_ON": "04/03/2025",
+                "INITIATED_TIME": "15:29:59",
+                "INITIATED_BY": "HRLOUB12",
+                "LAST_PICK_ON": "04/03/2025",
+                "LAST_TIME": "15:43:53",
+                "LAST_BY": "HRLOUB12"
+            }
+        }
+    },
+    {
         "DELIVERY": "1451318189",
         "SHIPPING POINT": "3NL2",
         "ROUTE": "UPAD00",
@@ -111171,51 +110697,6 @@
                 "LAST_PICK_ON": "04/03/2025",
                 "LAST_TIME": "15:28:10",
                 "LAST_BY": "PALADA2"
-            }
-        }
-    },
-    {
-        "DELIVERY": "1451318355",
-        "SHIPPING POINT": "1NL2",
-        "ROUTE": "TNGDD0",
-        "DELIVERY PRIORITY": 30,
-        "STATUS": "C",
-        "CREATED": "04/03/2025",
-        "TIME": "15:04:50",
-        "GI DATE": "04/03/2025",
-        "GI TIME": "19:29:59",
-        "COUNTRY": "NL",
-        "HUS": 1,
-        "DELIVERY BLOCK": "",
-        "WEIGHT": 1.835,
-        "COUNTER": 1,
-        "HU INFO": {
-            "206739781034893929": {
-                "TO_NUMBERS": {
-                    "16473516": {
-                        "LOCATIONS": [
-                            {
-                                "LOCATION": "B17400D",
-                                "MATERIAL": "A8845218065502",
-                                "BATCH": "S24MG003",
-                                "TO ITEM QTY": 1
-                            },
-                            {
-                                "LOCATION": "C15460B",
-                                "MATERIAL": "A8845218065402",
-                                "BATCH": "S24MG007",
-                                "TO ITEM QTY": 1
-                            }
-                        ]
-                    }
-                },
-                "PROFILE": "HRL_B_U5_2",
-                "INITIATED_ON": "04/03/2025",
-                "INITIATED_TIME": "15:30:00",
-                "INITIATED_BY": "HRLOUB226",
-                "LAST_PICK_ON": "04/03/2025",
-                "LAST_TIME": "15:37:19",
-                "LAST_BY": "HRLOUB226"
             }
         }
     },
